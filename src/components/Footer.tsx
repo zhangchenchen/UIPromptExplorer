@@ -22,6 +22,15 @@ const Footer = () => {
           <Link to="/privacy" className="hover:text-foreground">
             {t('footer.privacy')}
           </Link>
+          <span>•</span>
+          <a 
+            href="https://viralshortmaker.com/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-foreground"
+          >
+            Viral Short Maker
+          </a>
         </div>
       </div>
     </footer>
